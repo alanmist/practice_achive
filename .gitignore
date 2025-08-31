@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build/virtual
+dist/
+build/
+*.egg-info/
+
+# Large data (keep out of git)
+data/
+*.zip
+*.mp4
+*.mov
+*.exe
