@@ -13,4 +13,7 @@ csv_data=csv.reader(people_data)
 
 data_line=list(csv_data)
 people_data.close()
-data_line
+print(data_line)
+for line in data_line:
+    print(line)
+    
